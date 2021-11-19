@@ -1,0 +1,337 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.row{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+.scroll-img{
+    position: relative;
+}
+.scroll-img-text{
+    position: absolute;
+    top: 300px;
+    left: 155px;
+    z-index: 5;
+}
+/* Our offer */
+
+.our-offer-container-fluid{
+    position: absolute;
+    top: 528px;
+    left: 0px;
+}
+button{
+    margin-bottom: 25px;
+}
+.header-color,.scroll-img-text div div,.btn-color,.empty-div,footer,.complementry-service-text{
+    background-color: #F5683D;
+}
+.our-offer-container,.leadership-section,.second-section,.complementry-service-section{
+    background-color: #DDD9D9;
+}
+
+/* media Query */
+@media (max-width: 576px) {  
+    .scroll-img-text{
+        position: absolute;
+        top: 115px;
+        left: 0px;
+        z-index: 5;   
+    }
+    .scroll-img-text .row div h4{
+        font-size: 25px;
+        padding-top: 10px;  
+    }
+    .services{
+        margin-top: 100px;
+    }
+    .our-offer-container{
+        padding-top: 280px;
+    }
+    .our-offer-container .row .col-md-5 p:first-child{
+       font-size: 45px;
+    }
+    #offer{
+        font-size: 25px;
+    }
+    .our-offer-container .row .col-md-7 p:first-child{
+        font-size: 25px;
+     }
+    
+    #offer:after {
+        background-color: #000;
+        content: "";
+        display: block;
+        height: 3px;
+        width: 150px;
+        margin-top: 25px;
+      }
+       /* Complementry service */
+
+    .background-circle img{
+        border-radius: 50%;
+        position: relative;
+        top: 150px;
+        left: 70px;
+        max-width: 100%;
+    }
+    .complementry-service{
+        position: relative;
+    }
+    .complementry-service-img .col{
+        position: relative;
+    }
+     .upper-img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .complementry-service-text{
+        position: absolute;
+        top: 600px;
+        left: 0px;
+    }
+    .complementry-service-text div p{
+        font-size: 35px;
+    }
+
+    /* LeadershipImg */
+    .leadershipImg{
+        padding-top: 15px;
+        
+    }
+    .leadership-div{
+        margin-top: 180px;
+    }    
+}
+@media (min-width: 576px) {  
+    .scroll-img-text{
+        position: absolute;
+        top: 298px;
+        left: 20px;
+        z-index: 5;
+    }
+    .scroll-img-text .row div h4{
+        font-size: 25px;
+        padding-top: 10px;    
+    }
+    .scroll-img-text .row div h1{
+        font-size: 45px;
+        margin-left: 0px;
+        margin-top: 35px;
+        padding-left: 0px;
+        padding-bottom: 45px;   
+    }   
+}
+@media (min-width: 992px) { 
+    .scroll-img-text{
+        position: absolute;
+        top: 280px;
+        left: 62px;
+        z-index: 5;
+    }
+    .scroll-img-text .row div h4{
+        font-size: 25px;
+        padding-top: 25px;    
+        
+    }
+    .scroll-img-text .row div h1{
+        font-size: 55px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .scroll-img-text{
+        position: absolute;
+        top: 300px;
+        left: 155px;
+        z-index: 5;
+    }
+    .scroll-img-text .row div h4{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .scroll-img-text .row div h1{
+        font-size: 70px;
+    }
+    .container .row .col p:first-child{
+        font-size: 25px;
+    }
+   #offer{
+      font-size: 55px;
+    }
+    .container .row .col button{
+        font-size: 25px;
+        padding: 10px 45px;
+        margin-top: 25px;   
+    }
+    .services{
+        margin-top: 100px;
+    }
+    .our-offer-container{
+        padding-top: 280px;
+    }
+    .our-offer-container .row .col-md-5 p:first-child{
+       font-size: 45px;
+    }
+    #offer{
+        font-size: 25px;
+    }
+    .our-offer-container .row .col-md-7 p:first-child{
+        font-size: 25px;
+     }
+     .service-box .col{
+        padding-bottom: 35px;
+     }
+     .our-offer-container{
+        margin-top: 15px;
+     }
+    .card{
+        margin-top: 70px;
+        padding-bottom: 50px;
+        margin-bottom: 50px
+    }
+    #offer:after {
+        background-color: #000;
+        content: "";
+        display: block;
+        height: 3px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    /* Complementry service */
+    .background-circle img{
+        border-radius: 50%;
+        position: relative;
+        top: 95
+        .3px;
+        left: 340px;
+    }
+    .complementry-service{
+        position: relative;
+    }
+    .complementry-service-img .col{
+        position: relative;
+    }
+    .complementry-service-img .upper-img{
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        width: 100%;
+    }
+    .complementry-service-text{
+        position: absolute;
+        top: 700px;
+        left: 420px;
+    }
+    .complementry-service-text div p{
+        font-size: 35px;
+    }
+    /* Leadership and talented */
+    
+    .leader-background{
+      width: 500px;  
+      height: 450px;
+      background-color: coral;
+      position: absolute;
+      top: 120px;
+      left: 100px;
+      z-index: 55;
+    }
+    .empty-div{
+        width: 500px;
+        height: 350px;
+        position: relative;
+    }
+    .leadershipImg{
+    padding-left: 520px;
+    padding-top: 150px;
+    }
+
+    /* footer */
+    .bg-footer {
+        background-color: #33383c;
+        padding: 50px 0 30px;
+    }
+    .footer-heading {
+        letter-spacing: 2px;
+    }
+    
+    .footer-link a {
+        color: #acacac;
+        line-height: 40px;
+        font-size: 14px;
+        transition: all 0.5s;
+    }
+    .footer-link a:hover {
+        color: #1bbc9b;
+    }
+    .contact-info {
+        color: #acacac;
+        font-size: 14px;
+    }
+    .footer-social-icon {
+        font-size: 15px;
+        height: 34px;
+        width: 34px;
+        line-height: 34px;
+        border-radius: 3px;
+        text-align: center;
+        display: inline-block;
+    }
+    .facebook {
+        background-color: #4e71a8;
+        color: #ffffff;
+    }
+    .twitter {
+        background-color: #55acee;
+        color: #ffffff;
+    }
+    .google {
+        background-color: #d6492f;
+        color: #ffffff;
+    }
+    .apple {
+        background-color: #424041;
+        color: #ffffff;
+    }
+    .footer-alt {
+        color: #acacac;
+    }
+    .footer-heading {
+        position: relative;
+        padding-bottom: 12px;
+    }
+    .footer-heading:after {
+        content: '';
+        width: 25px;
+        border-bottom: 1px solid #FFF;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        border-bottom: 1px solid #1bbc9b;
+    }  
+}
+
+
+ 
+ 
