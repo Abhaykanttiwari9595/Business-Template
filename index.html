@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <script src="https://use.fontawesome.com/bbc7ac2d89.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,10 +19,11 @@
 
 <section class="header-color">
     <div class="header">
+        <div class="side-bar"><i class="fa fa-window-close text-white float-right pt-2 pr-2 sidebar-close"></i></div>
         <div class="container">
             <div class="row header-row header-color">
                 <div class="col-6"><h1>Logo</h1></div>
-                <div class="col-6 mt-3"><i class="fa fa-bars fa-2x justify-content-end d-flex" onclick="myFunction1()"></i></div>
+                <div class="col-6 mt-3"><i class="fa fa-bars fa-2x justify-content-end sidebar-open d-flex show"></i></div>
             </div>
         </div>
     </div>
@@ -215,6 +217,22 @@
         <p class="footer-alt mb-0 f-14">2019 © Anup, All Rights Reserved</p>
     </div>
 </footer>
+
+<!-- JavaScript -->
+
+<script>
+
+    $(document).ready(function(){
+       $(".sidebar-close").click(function(){
+         $(".side-bar").animate({width: '0px'});
+        });
+    });
+        $(document).ready(function(){
+  $(".sidebar-open").click(function(){
+    $(".side-bar").animate({width: '250px'});
+  });
+});
+    </script>
 </body>
 </html>
 
